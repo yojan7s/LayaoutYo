@@ -25,9 +25,11 @@
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
                 android:layout_centerInParent="true"
-                android:layout_margin="10dp"
+                android:layout_margin="5dp"
                 android:textSize="30dp"
-                android:text="Welcome!" />
+                android:text="Welcome!"
+                android:textStyle="bold"
+                />
 
             <TextView
                 android:id="@+id/tex1"
@@ -36,7 +38,7 @@
                 android:layout_below="@id/Welcome"
                 android:layout_centerHorizontal="true"
                 android:layout_centerInParent="true"
-                android:layout_margin="30dp"
+                android:layout_margin="20dp"
                 android:text="I was born free as Caesar, so were you; We both have fed well, and we can both Endure the winter's cold as well as he"
                 />
             <LinearLayout
@@ -64,6 +66,7 @@
                     android:text="HOW IT WORKS"
                     android:padding="10dp"
                     android:background="@color/colorBlanco"
+
                     />
                
             </LinearLayout>
@@ -86,14 +89,17 @@
                     android:layout_centerHorizontal="true"
                     android:layout_centerInParent="true"
                     android:textSize="20dp"
+                    android:textStyle="italic"
                     />
             </RelativeLayout>
         </LinearLayout>
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -147,7 +153,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -161,7 +168,7 @@
                 android:id="@+id/Txt4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Climbing Everest"
+                android:text="Deserted Cities"
                 android:layout_marginLeft="90dp"
                 android:textSize="20dp"
                 />
@@ -169,7 +176,7 @@
                 android:id="@+id/Txt5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="By Gary White"
+                android:text="By Savannah Walkman"
                 android:layout_marginLeft="90dp"
                 android:textSize="10dp"
                 android:layout_below="@id/Txt4"
@@ -178,7 +185,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="21"
+                android:text="29"
                 android:layout_marginLeft="90dp"
                 android:textSize="15dp"
                 android:layout_below="@id/Txt5"
@@ -188,16 +195,74 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="47 min ago"
+                android:text="55 min ago"
                 android:layout_marginLeft="270dp"
                 android:textSize="15dp"
                 android:layout_below="@id/Txt5"
                 android:layout_marginTop="10dp"
                 />
 
+
         </RelativeLayout>
 
+
     </LinearLayout>
-    
-    
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/ic_launcher_round"/>
+                <TextView
+                    android:id="@+id/Txt6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="New York"
+                    android:layout_marginLeft="90dp"
+                    android:textSize="20dp"
+                    />
+                <TextView
+                    android:id="@+id/Txt7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="By Popular repositories "
+                    android:layout_marginLeft="90dp"
+                    android:textSize="10dp"
+                    android:layout_below="@id/Txt6"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="50"
+                    android:layout_marginLeft="90dp"
+                    android:textSize="15dp"
+                    android:layout_below="@id/Txt7"
+                    android:layout_marginTop="10dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1 hour ago"
+                    android:layout_marginLeft="270dp"
+                    android:textSize="15dp"
+                    android:layout_below="@id/Txt7"
+                    android:layout_marginTop="10dp"
+                    />
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
 </LinearLayout>
