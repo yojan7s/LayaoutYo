@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.yojan.layaoutyo.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/Welcome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:layout_margin="10dp"
+                android:textSize="30dp"
+                android:text="Welcome!" />
+
+            <TextView
+                android:id="@+id/tex1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Welcome"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:layout_margin="30dp"
+                android:text="I was born free as Caesar, so were you; We both have fed well, and we can both Endure the winter's cold as well as he"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tex1"
+                android:layout_centerInParent="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:text="CREATE A STRORY"
+                    android:background="@color/colorNaranja"
+                    android:padding="10dp"
+                    android:textColor="@color/colorBlanco"
+                    />
+
+                <TextView
+                    android:id="@+id/Btn1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:text="HOW IT WORKS"
+                    android:padding="10dp"
+                    android:background="@color/colorBlanco"
+                    />
+               
+            </LinearLayout>
+            
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TOP STORIES"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerInParent="true"
+                    android:textSize="20dp"
+                    />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_launcher_round"/>
+            <TextView
+                android:id="@+id/Txt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Climbing Everest"
+                android:layout_marginLeft="90dp"
+                android:textSize="20dp"
+                />
+            <TextView
+                android:id="@+id/Txt3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="By Gary White"
+                android:layout_marginLeft="90dp"
+                android:textSize="10dp"
+                android:layout_below="@id/Txt2"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="21"
+                android:layout_marginLeft="90dp"
+                android:textSize="15dp"
+                android:layout_below="@id/Txt3"
+                android:layout_marginTop="10dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="47 min ago"
+                android:layout_marginLeft="270dp"
+                android:textSize="15dp"
+                android:layout_below="@id/Txt3"
+                android:layout_marginTop="10dp"
+                />
+            
+        </RelativeLayout>
+        
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_launcher_round"/>
+            <TextView
+                android:id="@+id/Txt4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Climbing Everest"
+                android:layout_marginLeft="90dp"
+                android:textSize="20dp"
+                />
+            <TextView
+                android:id="@+id/Txt5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="By Gary White"
+                android:layout_marginLeft="90dp"
+                android:textSize="10dp"
+                android:layout_below="@id/Txt4"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="21"
+                android:layout_marginLeft="90dp"
+                android:textSize="15dp"
+                android:layout_below="@id/Txt5"
+                android:layout_marginTop="10dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="47 min ago"
+                android:layout_marginLeft="270dp"
+                android:textSize="15dp"
+                android:layout_below="@id/Txt5"
+                android:layout_marginTop="10dp"
+                />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+    
+    
+</LinearLayout>
