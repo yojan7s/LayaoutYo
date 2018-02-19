@@ -259,10 +259,6 @@
                     android:layout_below="@id/Txt7"
                     android:layout_marginTop="10dp"
                     />
-
-
             </RelativeLayout>
-
-
         </LinearLayout>
 </LinearLayout>
